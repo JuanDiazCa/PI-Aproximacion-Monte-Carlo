@@ -8,23 +8,23 @@ Para calcular la aproximacion aPI mediante este metodo se tiene un cuadrado y de
 
 Por lo tanto si se tienen las ecuaciones de calculo de areas de un circulo y un cuadrado se tendria que:
 
-#### Area del circulo
-$$A=\Pi r^{2}$$
+**Area del circulo**
+![](img/ec1.png)
 
-#### Area del cuadrado
-$$Ac=l^{2}$$
+**Area del cuadrado**
+![](img/ec2.png)
 
 sin embargo para expresarlo en funcion del radio del circulo, se puede decir que:
-$$Ac=l^{2}=4r^{2}$$
+![](img/ec3.png)
 
 Con las dos ecuaciones anteriores se puede decir que:
-$$\frac{A}{Ac}=\frac{\Pi r^{2}}{4r^{2}}$$
+![](img/ec4.png)
 
-Dado que se quiere averiguar $\Pi$ se despeja, con lo que se tiene:
-$$\Pi=4\times \frac{A}{Ac}$$
+Dado que se quiere averiguar ![](img/PI.png), se despeja, con lo que se tiene:
+![](img/ec5.png)
 
 O que dada la explicacion anterior se puede expresar de la siguiente forma:
-$$\Pi=4\times \frac{Cantidad de puntos dentro del circulo}{Cantidad de puntos dentro del cuadrado}$$
+![](img/ec6.png)
 
 Una muestra del funcionamiento con la siguiente animacion que representa de forma muy resumida la simulacion se veria asi:
 
@@ -34,4 +34,4 @@ Para generar un pantallazo del programa se presiona enter y ya.
 
 Dada la naturaleza de aletoriedad del experimento algunas veces se acerca mas que otras, cada experimento tiende a dar resultados diferentes, sin emabargo parece que siempre da hasta 1 decimal correcto (3,1)
 
-Feliz dia de $\Pi$ (2022 - **3 - 14**)
+Feliz dia de [](img/PI.png) (2022 - **3 - 14**)
